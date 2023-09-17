@@ -506,7 +506,7 @@ nav ul li a:hover{
     
     .midblock{
         width: 100%;
-        min-height: 100vh;
+        min-height: 150vh;
         padding-left: 8%;
         padding-right: 8%;
         box-sizing: border-box;
