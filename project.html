@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/ks/style/sty 3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background">
+
+            <div class="navbar">
+                <img src="/ks/images/backgroundimages/cler.png" class="logo">
+                <div class="text3">
+                    <p>Tochi's Space</p> 
+                </div>
+                <img src="" alt="">
+
+                <nav>
+                    <ul id ='menulist'>
+                       <li><a href="index.html">Home</a></li>
+                        <li><a href="project.html">Video</a></li>
+      
+                    </ul>
+                </nav>
+                <img src="pause.png" class="menu-icon" onclick="togglemenu()">
+            </div>
+            <div class="vid">
+            <video controls  src="ks/New folder/BPQK6510.MOV"></video>
+            </div>
+            
+        </div>
+    </div>
+ 
+    <div class="bottomblock">
+        <div class="text4">
+           
+        </div>
+        <div class="text5">
+           
+        </div>
+        <script>
+            var menulist = document.getElementById("menulist");
+            menulist.style.maxHeight = "0px";
+            function togglemenu(){
+                if(menulist.style.maxHeight == "0px")
+                {
+                    menulist.style.maxHeight = "130px";
+                }
+                else
+                {
+                    menulist.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </div>
+
+</body>
+</html>

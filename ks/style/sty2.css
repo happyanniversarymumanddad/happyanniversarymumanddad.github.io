@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    animation: anim 150s  ease-in-out infinite;
+    background-image: url(/ks/images/backgroundimages/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg);
+  
+    background-repeat: no-repeat;
+
+
+}
+
+.sub{
+    top: 1vh;
+    align-items: center;
+    text-align: center;
+    position:relative;
+    display: flex;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    margin-top: -1.5vh;
+    opacity: 1;
+    transition: opacity 1s ease-in;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(to left,rgb(0, 0, 0),rgb(0, 0, 0), rgba(255, 255, 255, 0) ) ;
+    
+    
+}
+
+
+.sub .right{
+    flex: 50%;
+
+    padding-bottom: 2px;
+}
+.sub .left{
+
+    margin-top: -10%;
+    flex: 50%;
+    
+    
+}
+
+.cone{
+    text-align: center;
+    margin-top: 15vh;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    
+}
+
+form h3{
+    color: gray;
+    font-weight: 500;
+
+    font-size: 24px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+form input, form  textarea , form select , form select option{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0;
+    margin: 10px 0 ;
+    padding:  20px;
+    outline: none;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    position: relative;
+    width: 240px;
+    border: 0;
+    padding: 12px 70px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border-radius: 6px;
+    font-size: 16px;
+
+}
+
+form button{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    position: relative;
+    width: 240px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border-radius: 6px;
+    cursor: pointer;
+    top: 5vh;
+    transition: background-color  250ms;
+
+
+}
+
+h2{
+    font-size: 25px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+    transform: translateX(150px);
+}
+
+
+
+
+.container2{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    animation: anim 150s  ease-in-out infinite;
+    background-image: url(/ks/images/backgroundimages/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg);
+  
+    background-repeat: no-repeat;
+
+
+}
+.midblock{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    animation: anim 150s  ease-in-out infinite;
+    background-color: black;
+  
+    background-repeat: no-repeat;
+}
+
+.background{
+    
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 18%;
+    box-sizing:content-box;
+    overflow: hidden;
+    margin-left: -20vh;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.400),rgba(0, 0, 0, 0.400))  ;
+    
+}
+
+.bottomblock{
+    width: 100%;
+    min-height: 30vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    animation: anim 150s  ease-in-out infinite;
+    background-color: black;
+  
+    background-repeat: no-repeat;
+}
+
+.background2{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 18%;
+    box-sizing:content-box;
+    overflow: hidden;
+    margin-left: -20vh;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+
+
+    background: linear-gradient(to bottom,rgb(0, 0, 0.850), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5), rgb(0, 0, 0.850))  ;
+    
+}
+
+
+ins{
+    display:block;
+    width: 100%;
+    height: 42vh;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.logo{
+    width: 50PX;
+    cursor: pointer;
+    margin: 30px 0;
+    
+}
+
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    color: rgb(3, 175, 175);
+}
+
+.text{
+    position:relative;
+    display:inline-block;
+    align-items: center;
+    top: 20vh;
+    left: 40%;
+    word-spacing: 2px;
+    font-style: normal;
+    
+}
+.text2{
+    position:relative;
+    display:inline-block;
+    align-items: center;
+    top: 20vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    word-spacing: 2px;
+    font-style: normal;
+    
+}
+.text2 p{
+    text-align: center;
+    font-weight:100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+}
+
+.text2 h1{
+    position:relative;
+    text-align: center;
+    font-weight:500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    padding-bottom: 30px;
+    
+}
+.text p{
+    position:relative;
+    text-align: center;
+    font-weight:100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.text h1{
+    text-align: center;
+    font-weight:400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:50px;
+
+}
+.text2 .but{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    position: relative;
+    width: 240px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    top: 10vh;
+    transition: background-color  250ms;
+
+}
+
+.text2 .but:hover{
+    background-color:#ffffff4f
+    
+
+}
+
+.text3 p{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.text4{
+    position:relative;
+    display:inline-block;
+    align-items: center;
+    text-align: center;
+    
+    word-spacing: 2px;
+    font-style: normal;
+    
+}
+
+.imgg{
+    width: 73vh;
+}
+
+.text4 p{
+    text-align: center;
+    font-weight:300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding-bottom: 22px;
+    color: #c7c7c7;
+
+    
+}
+
+.text4 h1{
+    color: #ffffff;
+    position:relative;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    padding-bottom: 20px;
+
+}
+
+.text5{
+    position:relative;
+    display:inline-block;
+    align-items: left;
+    top: 5vh;
+    left: 90vh;
+    word-spacing: 2px;
+    font-style: normal;
+    
+}
+.text5 p{
+    text-align: left;
+    font-weight:100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    
+}
+
+.text5 h1{
+    color: #868686;
+    position:relative;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    padding-bottom: 20px;
+
+}
