@@ -343,7 +343,7 @@ nav ul li a:hover{
     
     .container{
         width: 100%;
-        min-height: 100vh;
+        max-height: 100vh;
         padding-left: 8%;
         padding-right: 8%;
         box-sizing: border-box;
@@ -427,7 +427,7 @@ nav ul li a:hover{
         
     .container2{
         width: 100%;
-        min-height: 100vh;
+        max-height: 100vh;
         padding-left: 8%;
         padding-right: 8%;
         box-sizing: border-box;
