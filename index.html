@@ -2,93 +2,147 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/ks/style/sty.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Anniversary, Mom and Dad</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .landing-page {
+            height: 100vh;
+            background: url('https://your-image-url.com') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .cta-button {
+            padding: 10px 20px;
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #ff4d4d;
+        }
+
+        .journey-section {
+            padding: 50px 20px;
+            background-color: white;
+        }
+
+        .journey-section h3 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .timeline-event {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 80%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .timeline-event h4 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        .timeline-event p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="background">
 
-            <div class="navbar">
-                <img src="/ks/images/backgroundimages/cler.png" class="logo">
-                <div class="text3">
-                    <p>Tochi's Space</p> 
-                </div>
-                <img src="" alt="">
+    <!-- Landing Page -->
+    <div class="landing-page">
+        <h1>Happy Anniversary, Mom and Dad!</h1>
+        <h2>Celebrating 24 Years of Love and Togetherness</h2>
+        <button class="cta-button" onclick="document.getElementById('journey').scrollIntoView();">Our Journey</button>
+    </div>
 
-                <nav>
-                    <ul id ='menulist'>
-                       <li><a href="index.html">Home</a></li>
-                        <li><a href="project.html">Video</a></li>
-      
-                    </ul>
-                </nav>
-                <img src="pause.png" class="menu-icon" onclick="togglemenu()">
-            </div>
-            <div class="text">
-                <p>YOU'RE 20yr OLD NOW!</p>
-                
-                <h1>Happy<br> Birthday!</h1>
-            </div>
-            
-        </div>
-    </div>
-    <div class="midblock">
-        <div class="text2">
-            <h1>Messages to You</h1>
-            <p>Kachi:<br> Hey, Happy Birthday this is the first time i have done something like this so i hope you like it congrats you're 20 no you're also no longer a TEENAGER you're an adult you'll now enter into to the adults world hope it's fun. ;-)</p>
-            <p>Mummy: <br>To my Angel, my Ada obodo oyibo i pray that God Almighty will pour out His grace on you. Grace that brakes protocol, prcess and procedures. Grace that speaks for you, grace for uncomon favour, grace for speed, grace for global visibility. May lines continue to fall in pleasant places for you and i wish you many more beatifule years aheade. Shine on my princess</p>
-            <p>Daddy: <br> To my beautiful daughter,  my sunshine and the love of my life. Happy 20th birthday.  It was just like yesterday.  You came into our life and everything changed.  Laughter and abundance entered our home. May the Good Lord fill your life with Laughter and abundance.  May God grant your heart desires.  May you continue in his grace and blessings all the days of your life. We truly love you. ❤  enjoy your day.my sunshine. </p>
-            <p>Ike: <br> Happy birthday tochukwu 
-Many more years and Gods blessing be upon you 
-I pray for wisdom and Gods guidance upon you.
-May he direct you in all your endeavors, may he show you the way to go. Bless you and surround you with trustworthy people. As you click plus one today , my joy continue to blossom in your life in Jesus name! Amen !</p>
-        </div>
-        
-    </div>
-    <div class="container2">
-        <div class="background2">
-            <div class="navbar">
-                <img src="/ks/images/backgroundimages/cler.png" class="logo">
-                <div class="text3">
-                    <p>Tochi's Space </p> 
-                </div>
-                <img src="" alt="">
+    <!-- Our Journey Section -->
+    <div class="journey-section" id="journey">
+        <h3>Mom and Dad's Journey</h3>
+        <div class="timeline">
 
-                <nav>
-                    <ul id ='menulist'>
-                       
-                    </ul>
-                </nav>
-                <img src="cler.png" class="menu-icon" onclick="togglemenu()">
+            <!-- Event 1: Wedding -->
+            <div class="timeline-event">
+                <h4>The Wedding - September 30, 2000</h4>
+                <p>On this special day, Mom and Dad tied the knot and started their beautiful journey together, filled with love and joy.</p>
             </div>
+
+            <!-- Event 2: Starting a Family -->
+            <div class="timeline-event">
+                <h4>Starting a Family - 2000, 2003, 2007</h4>
+                <p>Their first child was born in 2000, followed by their second daughter in 2003, and their youngest son in 2007. Together, they created a warm and loving family.</p>
+            </div>
+
+            <!-- Event 3: 24 Years of Marriage -->
+            <div class="timeline-event">
+                <h4>Congratulations on 24 Years of Marriage!</h4>
+                <p>24 years of commitment, love, and resilience. Your relationship is an inspiration to all of us.</p>
+            </div>
+
+            <!-- Event 4: Happy Anniversary from All of Us -->
+            <div class="timeline-event">
+                <h4>Happy Anniversary from All of Us</h4>
+                <p>Thank you for raising three wonderful children who love and appreciate you both. We are proud to call you our parents, and we love you deeply. - Kachi</p>
+            </div>
+
         </div>
-        
     </div>
-    <div class="bottomblock">
-        <div class="text4">
-           
-        </div>
-        <div class="text5">
-           
-        </div>
-        <script>
-            var menulist = document.getElementById("menulist");
-            menulist.style.maxHeight = "0px";
-            function togglemenu(){
-                if(menulist.style.maxHeight == "0px")
-                {
-                    menulist.style.maxHeight = "130px";
-                }
-                else
-                {
-                    menulist.style.maxHeight = "0px";
-                }
-            }
-        </script>
-    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 With Love from Kachi | All Rights Reserved
+    </footer>
 
 </body>
 </html>
